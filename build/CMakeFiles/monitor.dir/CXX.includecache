@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/process.h
+string
+-
+
+/home/hazem/Documents/NanoDegree/Projects/System_Mointor/CppND-System-Monitor/src/process.cpp
+process.h
+/home/hazem/Documents/NanoDegree/Projects/System_Mointor/CppND-System-Monitor/src/process.h
+unistd.h
+-
+cctype
+-
+sstream
+-
+string
+-
+vector
+-
+

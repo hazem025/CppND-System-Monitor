@@ -5,6 +5,7 @@
 #include <regex>
 #include <string>
 
+#define CLK_TICK (100UL)
 namespace LinuxParser {
 // Paths
 const std::string kProcDirectory{"/proc/"};
